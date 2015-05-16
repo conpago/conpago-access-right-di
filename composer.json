@@ -14,7 +14,8 @@
 	"require": {
 		"saigon/conpago-di": "dev-default",
 		"saigon/conpago-accessright-contract": "dev-default",
-		"saigon/conpago-accessright": "dev-default"
+		"saigon/conpago-accessright": "dev-default",
+		"saigon/conpago-auth-contract": "dev-default"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
