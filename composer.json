@@ -1,5 +1,5 @@
 {
-	"name": "saigon/conpago-accessright-di",
+	"name": "conpago/conpago-accessright-di",
 	"description": "Conpago framework acces right management module for dependency injection.",
 	"version": "0.0.1-alpha",
 	"type": "library",
@@ -12,10 +12,10 @@
 		}
 	],
 	"require": {
-		"saigon/conpago-di": "dev-default",
-		"saigon/conpago-accessright-contract": "dev-default",
-		"saigon/conpago-accessright": "dev-default",
-		"saigon/conpago-auth-contract": "dev-default"
+		"conpago/conpago-di": "dev-default",
+		"conpago/conpago-accessright-contract": "dev-default",
+		"conpago/conpago-accessright": "dev-default",
+		"conpago/conpago-auth-contract": "dev-default"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
@@ -26,7 +26,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\AccessRight\\": "src/"
+			"Conpago\\AccessRight\\": "src/"
 		}
 	}
 }

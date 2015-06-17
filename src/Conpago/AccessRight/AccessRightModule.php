@@ -6,17 +6,17 @@
 	 * Time: 23:04
 	 */
 
-	namespace Saigon\Conpago\AccessRight;
+	namespace Conpago\AccessRight;
 
-	use Saigon\Conpago\DI\IContainerBuilder;
-	use Saigon\Conpago\DI\IModule;
+	use Conpago\DI\IContainerBuilder;
+	use Conpago\DI\IModule;
 
 	class AccessRightModule implements IModule
 	{
 		public function build(IContainerBuilder $builder)
 		{
 			$builder
-				->registerType('Saigon\Conpago\AccessRight\AccessRightChecker')
-				->asA('Saigon\Conpago\AccessRight\Contract\IAccessRightChecker');
+				->registerType('Conpago\AccessRight\AccessRightChecker')
+				->asA('Conpago\AccessRight\Contract\IAccessRightChecker');
 		}
 	}
