@@ -20,11 +20,11 @@
 		"conpago/conpago-auth-contract": "dev-master"
 	},
 	"require-dev": {
-		"pdepend/pdepend": "*",
-		"phpmd/phpmd": "*",
-		"squizlabs/php_codesniffer": "*",
-		"sebastian/phpcpd": "*",
-		"phpunit/phpunit": "4.*"
+		"pdepend/pdepend": "2.5.x",
+		"phpmd/phpmd": "2.6.x",
+		"squizlabs/php_codesniffer": "2.8.x",
+		"sebastian/phpcpd": "2.0.x",
+		"phpunit/phpunit": "6.0.x"
 	},
 	"autoload": {
 		"psr-0": {
